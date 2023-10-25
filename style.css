@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #212121;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 8px;
+    color: white;
+    position: absolute;
+   
+}
+
+h2 span{
+    color: #308D46;
+}
+header{
+    background-color: #313131;
+    height: 60px;
+
+}
+
+#newstory-container {
+  background-color:#308D46; 
+  color: black; 
+  border: none;
+  margin-top: 12px;
+  padding: 10px 20px;
+  border-radius: 22px;
+  cursor: pointer;
+  margin-left: 90%;
+  transition: transform 0.3s ease;
+  position:absolute
+}
+
+#newstory-container:hover {
+   background-color: #66b56f;  
+   transform: translateY(1.4px); 
+ 
+}
+
+#saveButton{
+  background-color:#308D46; 
+  color: black; 
+  border: none;
+  margin-top: 1px;
+  padding: 10px 20px;
+  border-radius: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  justify-content: center;
+  transition: transform 0.3s ease;
+
+}
+#saveButton:hover {
+   background-color: #66b56f;  
+   transform: translateY(-1.4px); 
+ 
+}
+
+#storyTextArea{
+    background-color: #2b2b2b;
+    color: white;
+    margin: 20px;
+}
+textarea{
+    height: 220px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#collab-button{
+    background-color: #308D46;
+    color: black;
+    border: none;
+    margin-top: 12px;
+    padding: 10px 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-left: 82%;
+    transition: transform 0.3s ease;
+    position: relative;
+
+}
+#collab-button:hover{
+    background-color: #66b56f;
+    transform: translateY(1.4px);
+}
+
+
+
+
